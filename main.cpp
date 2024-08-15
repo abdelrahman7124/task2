@@ -21,7 +21,7 @@ int main()
     price+=dish.price(idx1);
     cout<<"Available side dishes:";
     side.DisplayDishes();
-    cout <<"Choose our side dishes (Enter ""stop"" to reveal the price):"<<endl;
+    cout <<"Choose our side dish (Enter ""stop"" to reveal the price):"<<endl;
     while(1)
     {
         getline(cin,WantedSideDish);
